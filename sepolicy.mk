@@ -28,4 +28,3 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/qcom/sepolicy-legacy-um/private
 
 -include device/custom/sepolicy/qcom/sepolicy.mk
--include device/custom/sepolicy/wifi-ext/sepolicy.mk
