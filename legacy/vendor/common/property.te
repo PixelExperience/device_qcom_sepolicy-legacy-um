@@ -39,6 +39,7 @@ type vendor_ctl_LKCore_prop, property_type;
 
 type vendor_freq_prop, property_type;
 type vendor_vm_bms_prop, property_type; #To start vm_bms
+type vendor_vm_bms_debug_prop, property_type;
 type vendor_dataqti_prop, property_type;
 type vendor_dataadpl_prop, property_type;
 type vendor_dataqdp_prop, property_type;
@@ -168,6 +169,10 @@ type vendor_ctl_vendor_rmt_storage_prop, property_type;
 type vendor_gpu_prop, property_type;
 
 type vendor_data_ko_prop, property_type;
+
+#shsusrd props
+type vendor_data_shsusr_prop, property_type;
+type vendor_data_qmipriod_prop, property_type;
 
 #hvdcp_opti
 type vendor_hvdcp_opti_prop, property_type;
