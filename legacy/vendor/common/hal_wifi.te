@@ -37,6 +37,9 @@ unix_socket_connect(hal_wifi, location, location)
 allow hal_wifi_default wifihal_socket:dir rw_dir_perms;
 allow hal_wifi_default wifihal_socket:sock_file create_file_perms;
 
+# Write wlan driver/fw version into property
+set_prop(hal_wifi_default, vendor_wifi_version)
+
 allow hal_wifi wlan_device:chr_file rw_file_perms;
 allow hal_wifi self:capability sys_module;
 allow hal_wifi kernel:key search;
@@ -45,9 +48,6 @@ allow hal_wifi proc_modules:file r_file_perms;
 # allow hal_wifi to write into /proc/debugdriver/driverdump
 r_dir_file(hal_wifi_default, proc_wifi_dbg)
 get_prop(hal_wifi_default, vendor_softap_prop)
-
-# Write wlan driver/fw version into property
-set_prop(hal_wifi_default, vendor_wifi_version)
 
 # allow hal_wifi to write into /data/vendor/tombstones/wifi
 userdebug_or_eng(`
