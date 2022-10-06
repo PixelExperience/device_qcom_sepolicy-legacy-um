@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67229d05_a21c1463",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000358
+      },
+      "writtenOn": "2022-10-06T21:04:36Z",
+      "side": 1,
+      "message": "LA.UM.11.2.1-1900.SDM660 merge gave error...we already have all changes so just manually picked these",
+      "revId": "9417cfe25448bda7995e9c0d7dea883d693e577c",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
