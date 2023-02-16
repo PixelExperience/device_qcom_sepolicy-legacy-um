@@ -83,3 +83,5 @@ genfscon sysfs /devices/soc/800f000.qcom,spmi/spmi-0/spmi0-02/800f000.qcom,spmi:
 #net sysfs
 genfscon sysfs /devices/soc/18800000.qcom,icnss/net u:object_r:sysfs_net:s0
 
+#ufs
+genfscon sysfs /devices/soc/1da4000.ufshc/host0/target0:0:0/0:0:0:0/block/sda/queue/discard_max_bytes           u:object_r:sysfs_mmc_host:s0
