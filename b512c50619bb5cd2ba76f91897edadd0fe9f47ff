@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1951de02_3c196321",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2024-03-10T07:50:01Z",
+      "side": 1,
+      "message": "Needed after https://gerrit.pixelexperience.org/c/device_custom_sepolicy/+/101?usp\u003dsearch",
+      "revId": "b512c50619bb5cd2ba76f91897edadd0fe9f47ff",
+      "serverId": "4889e122-48d1-4608-950d-fd61a2d2ee50"
+    }
+  ]
+}
